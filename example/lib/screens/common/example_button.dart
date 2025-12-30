@@ -33,8 +33,8 @@ class ExampleButtonNode extends StatelessWidget {
             child: ElevatedButton(
               onPressed: onPressed,
               child: const Text("Open example"),
-              style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.amber),
+              style: const ButtonStyle(
+                backgroundColor: WidgetStatePropertyAll(Colors.amber),
               ),
             ),
           )

@@ -161,8 +161,8 @@ class HomeScreen extends StatelessWidget {
   Widget _buildItem(context,
       {required String text, required VoidCallback onPressed}) {
     return TextButton(
-      style: ButtonStyle(
-        padding: MaterialStateProperty.all(
+      style: const ButtonStyle(
+        padding: WidgetStatePropertyAll(
           const EdgeInsets.symmetric(vertical: 25.0, horizontal: 20.0),
         ),
       ),
